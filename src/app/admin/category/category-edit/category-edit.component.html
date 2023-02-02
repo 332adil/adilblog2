@@ -1,0 +1,22 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+    <input type="hidden" name="id" ngModel/>
+    <mat-form-field class="full-width">
+        <mat-label>Category</mat-label>
+        <input matInput type="text" ngModel name="name" required/>
+        <mat-error>Please enter category</mat-error>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="full-width">
+        <mat-label>Image</mat-label>
+        <input matInput type="text" ngModel name="image" required #img/>
+        <mat-error>Please enter image url</mat-error>
+    </mat-form-field>
+    <br>
+    <img [src]="img.value" width="100" height="100" *ngIf="img.value">
+    <br><br>
+    <div>
+        <button mat-raised-button color="primary" [disabled]="!f.valid">Save</button>
+        <button mat-raised-button color="warn" style="margin-left: 10px;" type="button" (click)="clearForm()">Clear</button>
+    </div>
+</form>
+

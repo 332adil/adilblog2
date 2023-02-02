@@ -1,0 +1,188 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "sports",
+      "image": "https://cdn-icons-png.flaticon.com/512/1046/1046269.png"
+    },
+    {
+      "id": 2,
+      "name": "Education",
+      "image": "https://www.jjmmc.org/images/portfolio/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Health",
+      "image": "https://cdn.firstcry.com/education/2022/04/24114827/1026630514.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Finance",
+      "image": "https://img.freepik.com/free-vector/finance-financial-performance-concept-illustration_53876-40450.jpg"
+    }
+  ],
+  "blog": [
+    {
+      "title": "Rich Dad Poor Dad",
+      "category": 1,
+      "thumbnail": "https://m.media-amazon.com/images/I/51AHZGhzZEL.jpg",
+      "description": "Rich Dad Poor Dad is about Robert Kiyosaki and his two dads—his real father (poor dad) and the father of his best friend (rich dad)—and the ways in which both men shaped his thoughts about money and investing. He says that his poor dad went to Stanford and earned a Ph.D., and his rich dad never finished the eighth grade. The book consists of 8 chapters, lessons that everyone must learn. The central message conveyed by Kiyosaki is that you don’t need to earn a high income to be rich.",
+      "content": "<p><img src=\"https://pxl.host/ldejns1ztuhsp4mro1.png\" alt=\"\">The Five Big Ideas</p><ol><li>The poor and the middle-class work for money. The rich have money work for them.</li><li>It’s not how much money you make that matters. It’s how much money you keep.</li><li>Rich people acquire assets. The poor and middle class acquire liabilities that they think are assets.</li><li>Financial aptitude is what you do with money once you make it, how you keep people from taking it from you, how to keep it longer, and how you make money work hard for you.</li><li>The single most powerful asset we all have is our mind.</li></ol><h2>Rich Dad Poor Dad Lessons</h2><ol><li>Lesson 1: The Rich Don’t Work for Money</li><li>Lesson 2: Why Teach Financial Literacy?</li><li>Lesson 3: Mind Your Own Business</li><li>Lesson 4: The History of Taxes and The Power of Corporations</li><li>Lesson 5: The Rich Invent Money</li><li>Lesson 6: Work to Learn—Don’t Work for Money</li></ol>",
+      "id": 1,
+      "auther": "Daniel Alexander",
+      "enter_date": "2023-02-01T10:24:16.588Z",
+      "tags": [
+        {
+          "tag": "Money"
+        },
+        {
+          "tag": "rich"
+        }
+      ]
+    },
+    {
+      "title": "Think And Grow Rich",
+      "category": 3,
+      "content": "<h2>Inspiration Behind the Book</h2><p>Napoleon Hill, then a young special investigator for a nationally known business magazine, was sent to interview Andrew Carnegie. During that interview, Carnegie slyly dropped a hint of a certain master power he used—a magic law of the human mind, a little-known psychological principle—that was amazing in its power. Carnegie suggested to Hill that upon that principle he could build the philosophy of all personal success—whether it be measured in terms of money, power, position, prestige, influence, or the accumulation of wealth. That part of the interview never made it into Hill’s magazine, but it did launch the young author on a research journey that lasted twenty years. <i>Think and Grow Rich</i> is the result of Hill’s study of over five hundred self-made millionaires—a condensed, accessible explanation of his Law of Success philosophy, which includes thirteen steps to riches (financial, emotional, and spiritual).</p><h2>Chapter Summaries</h2><p><strong>Desire: The Starting Point of All Achievement</strong></p><p>Wishing your desires will materialize will not bring you riches. To attain any goal, you must have a burning desire, combined with belief you will possess it, backed by definiteness of purpose—the firm knowledge of what one wants. Hill details six steps for turning your desires into reality.</p><p><strong>Faith: Visualization of, and Belief in the Attainment of Desire</strong></p><p>Through affirmations or repeated suggestions to the subconscious, you can develop the emotion of faith, which is necessary to transmuting your desires into their physical or monetary equivalent.</p><p><strong>Auto-suggestion: The Medium for Influencing the Subconscious Mind</strong></p><p>Auto-suggestion refers to the use of self-directed communication and self-administered stimuli to channel thoughts from the conscious mind to the seat of the subconscious. Because the conscious mind often acts as a barrier to sensory impressions, auto-suggestion must be used to create thought patterns conducive to translating your desires into their physical equivalent.</p><p><strong>Specialized Knowledge: Personal Experiences or Observations</strong></p><p>General knowledge, or that typically taught in schools, will not help you accumulate riches, nor will specialized knowledge on its own. Rather, you must learn how to organize and use knowledge after you acquire it. If you lack the specialized knowledge necessary to build your business or attain your goals, you can supplement your own knowledge with that of other individuals by forming a “Master Mind” group.</p><p><strong>Imagination: The Workshop of the Mind</strong></p><p>The imagination is the unique faculty of humankind that shapes, forms, and gives action to desire. Hill distinguishes between two modes by which the imagination functions: the <i>synthetic imagination</i>, which does not create but rather arranges old concepts, ideas, or plans into new combinations; and the <i>creative imagination</i>, which, when stimulated by strong desire, picks up thought vibrations from other humans and from the ether, connects with Infinite Intelligence, and develops new ideas.</p><p><strong>Organized Planning: The Crystallization of Desire into Action</strong></p><p>In order to translate desire into its physical or monetary equivalent, you must form a definite, practical plan and put it into action. This chapter details how to build plans and ensure they are functioning to your advantage.</p><p><strong>Decision: The Mastery of Procrastination</strong></p><p>Procrastination and indecisiveness are major causes of failure. Men and women of great wealth, on the other hand, share in common the ability to reach definite decisions quickly and change their minds slowly. This chapter teaches you how <i>not</i> to be swayed by the opinions of others but instead to keep your own counsel (and that of your Master Mind group) so that you make firm, productive decisions that ensure your success.</p><p><strong>Persistence: The Sustained Effort Necessary to Induce Faith</strong></p><p>Most people will throw in the towel at the first sign of opposition. However, willpower, combined with desire, is necessary to ensure that one’s objectives are reached. Hill provides four steps for cultivating the habit of persistence, your insurance against failure.</p><p><strong>Power of the Master Mind: The Driving Force</strong></p><p>Individuals can attain and apply power through the formation of a Master Mind group, an alliance of individuals with different strengths and perspectives who coordinate their knowledge and efforts to attain a definite purpose. Master Mind groups bring both economic advantages (riches) as well as psychic benefits (a cosmic harmony that generates a “third mind,” or spiritual unit of energy operating at a higher frequency).&nbsp;</p><p><strong>The Mystery of Sex Transmutation</strong></p><p>Sex transmutation entails the channeling of carnal desires and their corresponding energies into other outlets than those that are purely physical—namely, creative ones. A correlative to this principle is the importance of selecting a compatible partner.</p><p><strong>The Subconscious Mind: The Connecting Link</strong></p><p>Hill describes the subconscious mind as the intermediary between the finite mind of man and Infinite Intelligence that enables humans to tap into the forces of the Universal Mind. He emphasizes that it alone is the medium for translating mental impulses into their spiritual and physical equivalents.</p><p><strong>The Brain: A Broadcasting and Receiving Station for Thought</strong></p><p>Hill writes, “Through the medium of the ether, in a fashion similar to that employed by the radio broadcasting principle, every human brain is capable of picking up vibrations of thought which are being released by other brains.” In this chapter, he explains the process by which the mind is stimulated by external vibrations and supplies a method for using emotions to increase the mind’s receptivity to these sensory stimuli.</p><p><strong>The Sixth Sense: The Door to the Temple of Wisdom</strong></p><p>The Sixth Sense refers to the faculty of the subconscious also termed the Creative Imagination by which humans, through no effort of their own, receive communications from Infinite Intelligence. Hill calls this principle the “apex” of his Law of Success philosophy, for it can be comprehended and applied only after mastering the first twelve principles.</p><p><strong>How to Outwit the Six Ghosts of Fear</strong></p><p>In order to implement these thirteen success principles, you have to prepare your mind to receive the philosophy. The first step to prime your psyche is to study, analyze, and understand the three enemies you’ll have to defeat: indecision, doubt, and fear. This chapter outlines and explains the cure to the six basic fears that, although often hidden in the subconscious, hold humans back in their pursuit of riches: the fear of poverty, the fear of criticism, the fear of ill health, the fear of loss of love, the fear of old age, and the fear of death.</p>",
+      "thumbnail": "https://m.media-amazon.com/images/I/71AdHA+qqwL.jpg",
+      "description": "Think and Grow Rich is the result of Hill's study of over five hundred self-made millionaires—a condensed, accessible explanation of his Law of Success philosophy, which includes thirteen steps to riches (financial, emotional, and spiritual).\n",
+      "tags": [
+        {
+          "tag": "Finance"
+        },
+        {
+          "tag": "Personal Developement"
+        },
+        {
+          "tag": "Business"
+        },
+        {
+          "tag": "Family"
+        }
+      ],
+      "id": 2,
+      "auther": "Daniel Alexander",
+      "enter_date": "2023-02-01T10:24:16.588Z"
+    },
+    {
+      "title": "The Millionaire Next Door",
+      "category": 1,
+      "content": "<p><strong>We are all wrong about millionaires.</strong></p><p>Most of us grow up believing that a millionaire lives in a jaw-dropping mansion, with three sports cars, and closets packed with expensive designer clothing.</p><p><i>The Millionaire Next Door</i> was written after the authors conducted many studies and hundreds of interviews on the wealthy. When they began the project, the authors were also wrong, believing that millionaires in real life look like we see them on TV. So the first time they invited several millionaires to be interviewed, they prepared caviar and wine for their rich guests.</p><p><strong>Then the millionaires actually arrived. Shockingly, they were driving used domestic cars, wearing boring grey suits, and asking for sandwiches and beer!</strong> These were not the millionaires that get paraded in the media, wearing Guccis and driving Lamborghinis. These were the real-life typical millionaires that we never really notice. They are often older family men living low-profile middle-class lifestyles.</p><p><strong>These were millionaires… hiding right next door to you and me.</strong></p><p>So in this summary of the ever-popular book <i>The Millionaire Next Door</i>, we’ll get to understand:</p><ul><li>The truth about millionaires,</li><li>How people really get rich, and</li><li>What <i>we</i> can learn from them to build wealth and financial independence.</li></ul><p>Sound good? Then let’s go!</p><h3><strong>About the authors</strong></h3><p><a href=\"https://themillionairenextdoor.com/\">Thomas J. Stanley and William D. Danko <i>(official website)</i></a> spent 20 years studying wealthy people. From 1973 to 1996, they conducted many studies, with up to 1000 respondents answering 200 questions each. They also interviewed 500 millionaires personally before writing this book. They are respected experts in their field, having done research for the New York Stock Exchange and been published by the American Marketing Association.</p><p><a href=\"https://growth.me/books/rich-dad-poor-dad/\"><strong>Read more in our summary of Rich Dad Poor Dad</strong></a></p>",
+      "thumbnail": "https://m.media-amazon.com/images/I/51XZ5SDTXYL.jpg",
+      "description": "Most of us grow up believing that a millionaire lives in a jaw-dropping mansion, with three sports cars, and closets packed with expensive designer clothing.",
+      "tags": [
+        {
+          "tag": "Finance"
+        },
+        {
+          "tag": "Money"
+        },
+        {
+          "tag": "Career"
+        },
+        {
+          "tag": "Life"
+        }
+      ],
+      "id": 3,
+      "auther": "Daniel Alexander",
+      "enter_date": "2023-02-01T10:24:16.588Z"
+    },
+    {
+      "title": "The popularity of microdosing of psychedelics: What does the science say?",
+      "category": 2,
+      "content": "<p>Psychedelic drugs have been capturing the attention of doctors and patients alike, for their increasingly proven potential to effect <a href=\"https://www.health.harvard.edu/blog/back-to-the-future-psychedelic-drugs-in-psychiatry-202106222508\">long-lasting improvements in the mental health</a> of people who are suffering from conditions such as treatment-resistant depression. Microdosing of psychedelic substances such as LSD or psilocybin involves taking a fraction of a regular dose (a subperceptual dose) that is much lower than one would take if one wanted to \"trip\" or hallucinate on these substances.</p><p>Many people share the idea that microdosing with psychedelics enhances one’s mood, creativity, concentration, productivity, and ability to empathize with others. Or could the benefits be an \"expectancy effect\"? This means that most people who take a daily pill that they fervently <i>expect </i>will help them feel happier and smarter <i>will </i>feel like they are happier and smarter — just from taking the pill, regardless of what’s in it.</p><h3><strong>What is microdosing?</strong></h3><p>There isn’t a single, clearly recognized definition of microdosing for any psychedelic drug, and this complicates attempts to perform consistent research. <a href=\"https://journals.sagepub.com/doi/full/10.1177/0269881119857204\">One definition</a> is approximately 1/5 to 1/20 of a recreational dose. (From anecdotal experience this is accurate, as a medium-strength dose of psilocybin is 2 to 3 grams of dried mushrooms, and a microdose is typically around 0.3 grams.) One obstacle is that the potency of mushrooms can vary greatly, as they are not regulated outside of clinical trials, so this isn’t an exact science. Likewise, LSD is an invisible, tasteless, odorless substance that usually comes either in liquid form or embedded into a piece of paper to be slipped under the tongue.</p><h2><a href=\"https://www.health.harvard.edu/promotions/sumo/fighting-inflammation\"><strong>Protect yourself from the damage of chronic inflammation.</strong></a></h2><p>Science has proven that chronic, low-grade inflammation can turn into a silent killer that contributes to cardiovas­cular disease, cancer, type 2 diabetes and other conditions. Get simple tips to fight inflammation and stay healthy -- from Harvard Medical School experts.</p><p><a href=\"https://www.health.harvard.edu/promotions/sumo/fighting-inflammation\">LEARN MORE</a></p><p><a href=\"https://www.health.harvard.edu/promotions/sumo/fighting-inflammation\">View Protect yourself from the damage of chronic inflammation.</a></p><figure class=\"image\"><img src=\"https://domf5oio6qrcr.cloudfront.net/medialibrary/11676/inflammation1.jpg\" alt=\"\"></figure><p>Given its current illegality and lack of regulation, there is no good way to know what dosage you are taking unless you have an extraordinarily reliable supplier. LSD is an extremely powerful and long-acting drug, and you don’t want to take more of it than intended. Further, psychedelics such as psilocybin and LSD can produce physiological tolerance, which might suggest that, even if microdosing does help, there could be diminishing returns if one stays at the same dosage.</p><h3><strong>Is microdosing safe?</strong></h3><p>We don’t know as much about safety as we might have learned if not for the War on Drugs, which curtailed much of the research into psychedelics starting in the late 1960s. This research has been renewed over the last five to 10 years, and many medical centers are conducting research on psychedelics. Psilocybin is generally thought to be safe in low dosages and has been used for centuries by indigenous peoples. However, if one takes too large a dose it can result in a terrifying — even traumatic — experience.</p><p>Psilocybin is a compound produced by almost 200 species of fungi (mushrooms), and the mushrooms must come from a trusted source. It is very easy to poison oneself with the wrong type of mushroom, as there are many types of mushrooms in nature that can look quite similar to each other, but some are poisonous and can harm your liver, causing severe illness or even death.</p>",
+      "thumbnail": "http://content.health.harvard.edu/wp-content/uploads/2022/09/45a1c67c-c60d-42f2-8e40-c1a3ac8f104b.jpg",
+      "description": "There is no definitive evidence yet that microdosing with psychedelics is either effective or safe.\n",
+      "tags": [
+        {
+          "tag": "Medical"
+        },
+        {
+          "tag": "Health"
+        }
+      ],
+      "id": 4,
+      "auther": "Daniel Alexander",
+      "enter_date": "2023-02-01T10:24:16.588Z"
+    }
+  ],
+  "user": [
+    {
+      "name": "Adil Mathakiya",
+      "email": "mathakiyaadil332@gmail.com",
+      "password": "AAaa11@@",
+      "contact": "8200106576",
+      "age": 35,
+      "image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80",
+      "id": 1
+    },
+    {
+      "name": "Daniel Alexander",
+      "email": "danalexander56@gmail.com",
+      "password": "12345678",
+      "contact": "9963251458",
+      "age": 35,
+      "image": "https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg",
+      "id": 2
+    }
+  ],
+  "comment": [
+    {
+      "blog_id": "3",
+      "user_id": 1,
+      "comment": "very good blog",
+      "enter_date": "2023-02-01T08:58:40.263Z",
+      "id": 1
+    },
+    {
+      "blog_id": "3",
+      "user_id": 1,
+      "comment": "very very very good blog",
+      "enter_date": "2023-02-01T10:24:16.588Z",
+      "id": 2
+    },
+    {
+      "blog_id": "3",
+      "user_id": 2,
+      "comment": "Since story is king in the world of fiction, it probably won’t come as any surprise to learn that a book review for a novel will concentrate on how well the story was told.",
+      "enter_date": "2023-02-01T10:27:37.068Z",
+      "id": 3
+    },
+    {
+      "blog_id": "3",
+      "user_id": 2,
+      "comment": "vfgdgfrgdfgdfgdg",
+      "enter_date": "2023-02-01T10:34:04.504Z",
+      "id": 4
+    },
+    {
+      "blog_id": "2",
+      "user_id": 2,
+      "comment": "In order to implement these thirteen success principles, you have to prepare your mind to receive the philosophy. The first step to prime your psyche is to study, analyze, and understand the three enemies you’ll have to defeat: indecision, doubt, and fear. This chapter outlines and explains the cure to the six basic fears that, although often hidden in the subconscious, hold humans back in their pursuit of riches: the fear of poverty, the fear of criticism, the fear of ill health, the fear of loss of love, the fear of old age, and the fear of death.",
+      "enter_date": "2023-02-01T10:57:04.062Z",
+      "id": 5
+    },
+    {
+      "blog_id": "1",
+      "user_id": 2,
+      "comment": "In order to implement these thirteen success principles, you have to prepare your mind to receive the philosophy. The first step to prime your psyche is to study, analyze, and understand the three enemies you’ll have to defeat: indecision, doubt, and fear. This chapter outlines and explains the cure to the six basic fears that, although often hidden in the subconscious, hold humans back in their pursuit of riches: the fear of poverty, the fear of criticism, the fear of ill health, the fear of loss of love, the fear of old age, and the fear of death.",
+      "enter_date": "2023-02-01T12:18:55.785Z",
+      "id": 6
+    },
+    {
+      "blog_id": "1",
+      "user_id": 2,
+      "comment": "In order to implement these thirteen success principles, you have to prepare your mind to receive the philosophy. The first step to prime your psyche is to study, analyze, and understand the three enemies you’ll have to defeat: indecision, doubt, and fear. This chapter outlines and explains the cure to the six basic fears that, although often hidden in the subconscious, hold humans back in their pursuit of riches: the fear of poverty, the fear of criticism, the fear of ill health, the fear of loss of love, the fear of old age, and the fear of death.\n",
+      "enter_date": "2023-02-01T12:19:05.313Z",
+      "id": 7
+    },
+    {
+      "blog_id": "4",
+      "user_id": 2,
+      "comment": "In order to implement these thirteen success principles, you have to prepare your mind to receive the philosophy. ",
+      "enter_date": "2023-02-01T12:19:34.776Z",
+      "id": 8
+    }
+  ]
+}

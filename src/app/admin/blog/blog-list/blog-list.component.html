@@ -1,0 +1,32 @@
+
+<div class="container">
+    <button mat-raised-button color="primary" (click)="addBlog()" style="margin-bottom: 10px;">Add Blog</button>
+    <div class="card card-container"  *ngFor="let blog of blogs" [routerLink]="[blog.id]">
+        <div class="row blog-item">
+            <div class="col-md-1">
+                <img [src]="blog.thumbnail" width="80" height="80">
+            </div>
+            <div class="col-md-9">
+                <h3>{{ blog.title}}</h3>
+                <div [innerHTML]="blog.description | shorten"></div>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary" (click)="editBlog(blog.id, $event)">Edit</button>
+                <button class="btn btn-danger" style="margin-left: 10px;" (click)="deleteBlog(blog.id, $event)">Delete</button>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="row blog-item" *ngFor="let blog of blogs" [routerLink]="[blog.id]">
+        <div class="col-md-1">
+            <img [src]="blog.thumbnail" width="80" height="80">
+        </div>
+        <div class="col-md-9">
+            <h3>{{ blog.title}}</h3>
+            <div [innerHTML]="blog.description | shorten"></div>
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary" (click)="editBlog(blog.id, $event)">Edit</button>
+            <button class="btn btn-danger" style="margin-left: 10px;" (click)="deleteBlog(blog.id, $event)">Delete</button>
+        </div>
+    </div> -->
+</div>

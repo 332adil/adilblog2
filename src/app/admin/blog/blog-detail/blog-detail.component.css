@@ -1,0 +1,30 @@
+.move-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment-add {
+    padding-top: 10px;
+}
+
+.comment-list {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: auto;
+}
+
+.related-blog {
+    margin-top: 100px;
+    border-left: 4px solid gray;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 80px;
+}

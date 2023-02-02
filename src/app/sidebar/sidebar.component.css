@@ -1,0 +1,55 @@
+.sidebar {
+    width: 250px;
+    background-color: #002b5c;
+    height: 100%;
+    overflow: hidden;
+}
+
+.profile {
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: chocolate;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+ul li:hover {
+    background-color: white;
+    color: chocolate;
+    border-radius: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-style: oblique;
+    padding-left: 0;
+    color: inherit;
+}
+
+.router-link-active {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+
+

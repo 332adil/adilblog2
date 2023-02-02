@@ -1,0 +1,14 @@
+mat-toolbar {
+    background-color: blue;
+    color: white;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+mat-sidenav-content {
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+}

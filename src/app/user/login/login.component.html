@@ -1,0 +1,23 @@
+<div class="container" style="text-align: center; margin-top: 20px;">
+    <h2 mat-dialog-title>Login</h2>
+    <form (ngSubmit)="logIn(form)" #form="ngForm">
+        <div>
+            <mat-form-field>
+                <mat-label>Email</mat-label>
+                <input type="text" name="email" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field>
+                <mat-label>Password</mat-label>
+                <input type="password" name="password" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div style="margin-left: 120px;">
+            <mat-dialog-actions>
+                <button mat-raised-button color="primary" type="submit">Login</button>
+                <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+            </mat-dialog-actions>
+        </div>
+    </form>
+</div>

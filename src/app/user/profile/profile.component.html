@@ -1,0 +1,48 @@
+<div class="container" style="text-align: center; margin-top: 20px;">
+    <h2>User Profile</h2>
+    <img [src]="img.value" class="rounded-circle" width="150" height="150" *ngIf="img.value"/>
+    <form #f="ngForm" (ngSubmit)="saveProfile(f)">
+        <div class="form-group">
+            <mat-form-field class="inp-width">
+                <mat-label>Name</mat-label>
+                <input type="name" name="name" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div class="form-group" >
+            <mat-form-field class="inp-width">
+                <mat-label>Email</mat-label>
+                <input type="name" name="email" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div class="form-group" >
+            <mat-form-field class="inp-width"> 
+                <mat-label>Password</mat-label>
+                <input type="password" name="password" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field class="inp-width">
+                <mat-label>Contact</mat-label>
+                <input type="name" name="contact" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field class="inp-width">
+                <mat-label>Age</mat-label>
+                <input type="number" name="age" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field class="inp-width">
+                <mat-label>Image Url</mat-label>
+                <input type="text" #img name="image" ngModel matInput/>
+            </mat-form-field>
+        </div>
+        <div style="margin-left: 145px;">
+            <mat-dialog-actions>
+                <button mat-raised-button color="primary" type="submit">Save</button>
+                <button mat-raised-button color="warn" style="margin-left: 10px;" mat-dialog-close>Cancel</button>
+            </mat-dialog-actions>
+        </div>
+    </form>
+</div>

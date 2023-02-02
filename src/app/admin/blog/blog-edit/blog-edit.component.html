@@ -1,0 +1,50 @@
+<button mat-raised-button (click)="viewList()">Go To List</button>
+<form [formGroup]="blogForm" (ngSubmit)="onSubmit()" style="margin-top: 10px;">
+    <div>
+        <mat-form-field class="inp-width" appearance="outline">
+            <mat-label>Blog Title</mat-label>
+            <input type="hidden" formControlName="id"/>
+            <input type="text" formControlName="title" matInput/>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="inp-width" appearance="outline">
+            <mat-label>Category</mat-label>
+            <input type="text" formControlName="category" matInput [matAutocomplete]="auto" />
+            <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn.bind(this)">
+                <mat-option *ngFor="let item of filteredOptions | async" [value]="item.id"><img src="{{ item.image }}" width="30" height="30"> {{ item.name }}</mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="inp-width" appearance="outline">
+            <mat-label>Blog Description</mat-label>
+            <textarea formControlName="description" rows="3" matInput></textarea>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="inp-width" appearance="outline">
+            <mat-label>Thumbnail</mat-label>
+            <input type="text" formControlName="thumbnail" matInput #img/>
+        </mat-form-field>
+        <span style="margin-left: 10px;"><img [src]="img.value" width="50" height="50" *ngIf="img.value"></span>
+    </div>
+    <ckeditor [editor]="Editor" formControlName="content" matInput style="height: 500px;"></ckeditor>
+    <hr>
+    <div formArrayName="tags">
+        <div *ngFor="let tag of controls; let i = index" 
+            [formGroupName]="i">
+            <mat-form-field>
+                <mat-label>Tag</mat-label>
+                <input type="text" formControlName="tag" matInput/>
+            </mat-form-field>
+            <button type="button" style="margin-left: 10px;" (click)="removeTag(i)" class="btn btn-danger">X</button>
+        </div>
+    </div>
+    <button type="button" mat-stroked-button (click)="addTag()">Add Tag</button>
+    <hr>
+    <div style="margin-top: 10px;">
+        <button mat-raised-button color="primary" type="submit">Save</button>
+        <button mat-raised-button color="warn" style="margin-left: 10px;" type="button">Clear</button>
+    </div>
+</form>

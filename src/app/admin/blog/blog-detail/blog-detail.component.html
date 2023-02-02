@@ -1,0 +1,67 @@
+<div class="row">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-6">
+        <div style="margin-top: 10px;">
+            <b style="font-size: 30px;">{{ blog.title }}</b><br>
+        </div>
+        <div style="margin-top: 10px;">
+            <span style="font-size: 16px;">{{ blog.enter_date | date : 'longDate' }}</span><br>
+            By <span style="color: coral;">{{ blog.auther }}</span>
+        </div>
+        <div style="margin-top: 20px;">
+            <b style="font-size: 22px;">{{ blog.description }}</b>
+        </div>
+        <div>
+            <img [src]="blog.thumbnail" width="600" height="400">
+        </div>
+        <mat-chip-listbox *ngFor="let tag of blog.tags">
+            <mat-chip>{{ tag.tag }}</mat-chip>
+        </mat-chip-listbox>
+        <div>
+            <div [innerHTML]="blog.content"></div>
+        </div>
+        <hr>
+        <div class="comments">
+            <div class="comment-add">
+                <textarea rows="6" name="comment" placeholder="Enter comment here .." #comment class="form-control"></textarea>
+                <button mat-raised-button color="primary" style="margin-top: 10px;" (click)="addComment()">Comment</button>
+            </div>
+    
+            <div class="comment-list" *ngFor="let comment of blogComments">
+                <div class="row">
+                    <div class="col-sm-1 vl">
+                    </div>
+                    <div class="col-sm-1">
+                        <span>
+                            <img [src]="comment.userImage" width="50" height="50" class="rounded-circle"/>
+                            <h5>{{ comment.userName }}</h5>
+                        </span>
+                    </div>
+                    <div class="col-sm-7">
+                        <p>{{ comment.comment }}</p>
+                        <span><b>{{ comment.enter_date | date:'medium' }}</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-1 vl2"></div>
+    <div class="col-sm-3 related-blog">
+        <h2>Related Blog</h2>
+        <div *ngFor="let blog of relatedBlogs" (click)="replaceBlog(blog.id)" style="cursor: pointer;">
+            <div class="row">
+                <div class="col-sm-4 col-md-2">
+                    <img [src]="blog.thumbnail" class="rounded-circle" width="50" height="50"/>
+                </div>
+                <div class="col-sm-8 col-md-10">
+                    <h3>{{ blog.title }}</h3>
+                    <p>{{ blog.description | shorten2}}</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        
+    </div>
+</div>
+

@@ -1,0 +1,19 @@
+<mat-toolbar>
+    <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon *ngIf="!sidenav.opened">
+            menu
+        </mat-icon>
+        <mat-icon *ngIf="sidenav.opened">
+            close
+        </mat-icon>
+    </button>
+  Admin Panel
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav opened #sidenav="matSidenav">
+    <app-sidebar></app-sidebar>   
+  </mat-sidenav>
+  <mat-sidenav-content>
+      <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
